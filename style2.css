@@ -1,0 +1,118 @@
+header{
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+    background-color: #090081;
+    color: white;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+a{
+    color: white;
+}
+
+header .logo{
+    width: 30%;
+    text-transform: uppercase;
+}
+
+header ul.menu{
+    display: flex;
+    list-style: none;
+}
+
+header ul.menu>li{
+    padding: 15px 20px  ;
+    border-right: 1px solid white;
+}
+
+header ul.menu>li>a{
+    text-decoration: none;
+}
+
+header ul.menu>li:last-child{
+    border: none;
+}
+
+.anchorpane{
+    width: 80%;
+    height: 800vh;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #c3c3c3;
+    background-color: white;
+
+}
+
+
+
+.area_top{
+    width: 70%; 
+    display: flex; justify-content: 
+    space-between; margin-right: 10%; 
+    border-bottom: 0.5px solid black; 
+    line-height: 4;
+}
+
+.area_center{
+    border: 0.5px solid black;
+    width: 70%;
+    height: 50vh;
+    display: block;
+    margin-top: 10px;
+}
+
+.table1{
+    width: 70%;
+    height: 50vh;
+    border-collapse: collapse;
+    background-color: aqua;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.table2{
+    width: 100%;
+    height: 50vh;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table3{
+    width: 100%;
+    height: 50vh;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.ul1{
+
+}
+
+.ul1>li{
+    font-size: 18px;
+    margin: 10px;
+}
+
+.grid_container{
+    display: flex;
+    gap: 20px;
+}
+
+.area_bottom{
+    display: grid;
+    color: blue;
+}
+
+.text{
+    font-size: 18px;
+}
+
+
+body{
+    background-color: #efefef;	
+}
